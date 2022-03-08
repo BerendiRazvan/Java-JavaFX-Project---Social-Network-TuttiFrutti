@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="620.0" style="-fx-background-color: #f1f1f1;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.map_proiect_extins.controller.CurrentUserRequestsController">
+   <children>
+      <TableView fx:id="tableViewCurrentUserRequests" layoutX="26.0" layoutY="41.0" prefHeight="355.0" prefWidth="591.0" stylesheets="@../styles/tableView-style.css" AnchorPane.bottomAnchor="115.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="40.0">
+        <columns>
+            <TableColumn fx:id="imagineColumn" prefWidth="70.39996147155762" style="-fx-alignment: CENTER; -fx-background-radius: 25 25 25 25; -fx-border-width: 0; -fx-text-fill: #e3eff6; -fx-border-color: grey;" />
+          <TableColumn fx:id="tableColumnFirstName" prefWidth="132.00006866455078" style="-fx-background-radius: 25 25 25 25; -fx-border-radius: 0 0 0 0; -fx-border-width: 0; -fx-text-fill: #e3eff6; -fx-border-color: grey;" text="User" />
+          <TableColumn fx:id="tableColumnLastName" prefWidth="147.99993896484375" style="-fx-background-radius: 25 25 25 25; -fx-border-radius: 0 0 0 0; -fx-border-width: 0; -fx-text-fill: #e3eff6; -fx-border-color: grey;" />
+            <TableColumn fx:id="tableColumnDate" prefWidth="108.0" style="-fx-background-radius: 25 25 25 25; -fx-border-radius: 0 0 0 0; -fx-border-width: 0; -fx-text-fill: #e3eff6; -fx-border-color: grey;" text="Date" />
+            <TableColumn fx:id="tableColumnStatus" prefWidth="101.59994506835938" style="-fx-background-radius: 25 25 25 25; -fx-border-radius: 0 0 0 0; -fx-border-width: 0; -fx-text-fill: #e3eff6; -fx-border-color: grey;" text="Status" />
+        </columns>
+      </TableView>
+       <Button fx:id="cancelRequestBtn" layoutX="500.0" layoutY="405.0" mnemonicParsing="false" onAction="#handleCancelRequest" prefHeight="35.0" prefWidth="120.0" style="-fx-background-radius: 10 10 10 10; -fx-border-radius: 0 0 10 10; -fx-border-width: 0; -fx-background-color: #2b305e;" text="Cancel Request" textFill="#e3eff6" AnchorPane.bottomAnchor="70.0" AnchorPane.rightAnchor="30.0">
+           <font>
+               <Font name="Segoe UI Bold" size="14.0" />
+           </font></Button>
+   </children>
+</AnchorPane>

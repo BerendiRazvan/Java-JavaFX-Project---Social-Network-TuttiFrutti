@@ -1,0 +1,23 @@
+
+.combo-box{
+    -fx-background-color: #2b305e;
+    -fx-border-color:#2b305e;
+    -fx-border-width:0;
+}
+.combo-box .arrow{
+    -fx-background-color: #ffffff;
+    -fx-border-width:0;
+}
+
+.combo-box .arrow-button{
+    -fx-background-color: #2b305e;
+    -fx-border-width:0;
+}
+
+.combo-box .list-cell{
+    -fx-background-color: #2b305e;
+    -fx-prompt-text-fill: white;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-width:0;
+}

@@ -1,0 +1,33 @@
+.list-view{
+    -fx-background-color: #2b305e;
+    -fx-background-radius: 0 10 0 10;
+    -fx-fill: #e3eff6;
+}
+
+.list-cell:odd{
+    -fx-background-color: #2b305e;
+    -fx-background-radius: 0 10 0 10;
+    -fx-text-fill: #e3eff6;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-border-color: transparent;
+}
+
+.list-cell:even{
+    -fx-background-color: #374785;
+    -fx-background-radius: 0 10 0 10;
+    -fx-text-fill: #e3eff6;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-border-color: transparent;
+}
+
+.list-cell:selected {
+    -fx-background-color: #f76c6c;
+}
+
+.list-view .virtual-flow .scroll-bar .increment-button,
+.list-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
