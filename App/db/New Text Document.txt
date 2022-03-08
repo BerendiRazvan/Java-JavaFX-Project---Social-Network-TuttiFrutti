@@ -1,1 +1,1 @@
-d
+Baza de date pgAdmin 4
