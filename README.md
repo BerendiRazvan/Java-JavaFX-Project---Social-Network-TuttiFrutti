@@ -3,26 +3,26 @@
 This is an application for a social network, made in a team, using Java, SceneBuilder (JavaFx) and a pgAdmin database. In the app you can create an account and then log in to make friends and talk to them in the app's chat. You can also create and participate in different events in the app.
 
 
-Dacă nu ai cont în aplicație, îți poți crea unul:
-
-![SIGNUP](AppImages/signup.png)
-
-
-Te poți autentifica în contul tău personal:
+You can log in to your personal account:
 
 ![LOGIN](AppImages/login.png)
 
 
-După ce îți faci prieteni în rețeaua de socializare, poți comunica cu ei în chat:
+If you don't have an account in the application, you can create one:
+
+![SIGNUP](AppImages/signup.png)
+
+
+After you make friends on the social network, you can communicate with them in chat:
 
 ![CHAT](AppImages/chat.png)
 
 
-Dar în același timp poți crea sau participa la diferite evenimente din aplicație:
+But at the same time you can create or participate in different events in the application:
 
 ![EVENTS](AppImages/events.png)
 
 
-Iar la finalul zilei poți vedea un raport cu istoricul activității tale în aplicație și dacă vrei poți genera un fișier pdf cu acesta:
+And at the end of the day you can see a report with the history of your activity in the application and if you want you can generate a pdf file with it:
 
 ![RAPORTS](AppImages/raports.png)
